@@ -6,27 +6,30 @@ body{
 nav{
     width:100%;
     height:50px;
+    
     background-color: white;
     display: flex;
 }
 .logo,.items,.btn{
     display: flex;
+
     margin-left:3%;
 
 }
 .logo{
-    margin-left: 12%;
+   
+    margin-left: 7%;
     
 }
 .logo img{
-    width:100%;
+    width:150%;
     height: 100%;
     /* margin-left: 40%;*/
-    margin-top: 30%; 
+    margin-top: 40%; 
 }
 .items{
     font-size: 1.2rem;
-    width:50%;
+    width:70%;
 align-items: center;
 justify-content: space-around;
 color: #FD6636;
@@ -37,7 +40,9 @@ margin-left: 5%;
 .items a{
     text-decoration: none;
     color: #FD6636;
-    margin-right: 5%;
+    margin-left: 5%;
+
+   
 }
 .btn{
     width:40%;
@@ -84,8 +89,8 @@ footer{
 
 
 .icon img{
-    width: 35%;
-    height:10%;
+    width: 50%;
+    height:15%;
     margin-top:15%;
     margin-right: 3%;
 }
@@ -263,15 +268,16 @@ rgba(11, 56, 100, 1);
     background-color:grey;
 }
 .sellers{
-    width:200%;
-    height:1100px;
+    width:100%;
+    height: 1500px;
    color: white;
+ 
    
   position: relative;
     background-image: url("images/Vector\ 183.png");
-    background-size: contain;
+    background-size: cover;
     margin-top: 17%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 .sellers p{
     color:white;
@@ -620,3 +626,38 @@ font-size: 1.5rem;
 
     background-color: white;
 }
+@media screen and (min-width: 1480px) {
+    .testimonials hr{
+        margin-top: 2%;
+    
+    }
+    .hr{
+        margin-top:-0.8%;
+    }
+    .testimonials {
+        height: 850px;
+    }
+    .testimonials img{
+        margin-top: 7.2%;
+    }
+    .sellers h3{
+        
+        margin-top: -25%;
+     
+    }
+    .sellers img{
+        margin-left: 60%;
+         margin-top: 20%;
+     }
+     .divis1 img, .divis2 img{
+        margin-left: 12%;
+     }
+     .colid{
+       
+     margin-top: 15%;
+      
+    }
+    .prod{
+      margin-top: 5%;
+    }
+  }
