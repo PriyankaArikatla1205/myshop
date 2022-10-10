@@ -31,3 +31,5 @@ function carousel1() {
   // console.log(myIndex)
   setTimeout(carousel1, 2000); // Change image every 2 seconds
 }
+
+
